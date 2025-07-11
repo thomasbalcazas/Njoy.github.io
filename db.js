@@ -1,8 +1,8 @@
 import mysql from 'mysql2/promise';
 
 export const db = mysql.createPool({
-    host: 'localhost',
-    user: 'tu_usuario',
-    password: 'tu_contraseña',
-    database: 'Njoy'
+    host: 'sql208.infinityfree.com',
+    user: 'if0_39450468',
+    password: 'Njoy2025',
+    database: 'if0_39450468_XXX'
 });
