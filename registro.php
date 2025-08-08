@@ -5,7 +5,7 @@ header('Content-Type: application/json');
 $host = "sql208.infinityfree.com";
 $user = "if0_39450468";
 $pass = "Njoy2025";
-$db   = "if0_39450468_XXX"; // 🔹 Cambia XXX por el nombre real de tu DB
+$db   = "if0_39450468_njoy"; // 🔹 Cambia XXX por el nombre real de tu DB
 
 // Conectar
 $conn = new mysqli($host, $user, $pass, $db);
