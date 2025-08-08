@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = 3000;
+const PORT = 3306;
 
 // Middlewares
 app.use(cors()); // Permite peticiones desde el frontend
@@ -23,4 +23,5 @@ app.use('/api', userRoutes);
 // Inicia el servidor
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
+
 });
