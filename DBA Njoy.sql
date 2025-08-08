@@ -1,7 +1,7 @@
 create database Njoy
 
 CREATE TABLE usuario (
-id_usuario INT NUMERIC PRIMARY KEY NOT NULL,
+id_usuario NUMERIC PRIMARY KEY NOT NULL,
 Nombre_Apellido VARCHAR NOT NULL,
 correo_electronico VARCHAR NOT NULL,
 contrasena VARCHAR NOT NULL,
@@ -26,4 +26,5 @@ comentario VARCHAR NOT NULL,
 fecha_resena DATETIME NOT NULL,
 FOREIGN KEY(id_usuario) REFERENCES usuario(Id_usuario ),
 FOREIGN KEY(Id_usuario) REFERENCES Juego(id_juego));
+
 
