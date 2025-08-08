@@ -1,4 +1,3 @@
-create database Njoy;
 USE Njoy;
 
 CREATE TABLE usuario (
@@ -27,6 +26,7 @@ comentario VARCHAR NOT NULL,
 fecha_resena DATETIME NOT NULL,
 FOREIGN KEY(id_usuario) REFERENCES usuario(Id_usuario ),
 FOREIGN KEY(Id_usuario) REFERENCES Juego(id_juego));
+
 
 
 
